@@ -40,7 +40,7 @@ const Product = () => {
               {products?.map((c) => (
                 <Link
                   key={c._id}
-                  to={`https://onlineshopping-application.netlify.app//dashboard/admin/product/${c.slug}`}
+                  to={`https://onlineshopping-application.netlify.app/dashboard/admin/product/${c.slug}`}
                   className="product-link"
                 >
                   <div className="card m-2" style={{ width: "18rem" }}>
